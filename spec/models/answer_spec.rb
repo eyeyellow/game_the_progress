@@ -1,4 +1,4 @@
-require 'rails_helper'
+require_relative '../spec_helper'
 
 describe Answer do
   let(:answer) { build(:answer) }
